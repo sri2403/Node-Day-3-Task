@@ -24,3 +24,31 @@ Postman link=>[click here](https://documenter.getpostman.com/view/32019732/2sA3Q
 - Routers
 - Database
 - index.js
+
+ ## API Endpoints
+<ul>
+        <li>
+            <strong>/api/getAllStudentsList</strong> - Retrieve a list of all students in the database.
+        </li>
+        <li>
+            <strong>/api/getAllMentorsList</strong> - Retrieve a list of all mentors in the database.
+        </li>
+        <li>
+            <strong>/api/createStudent</strong> - Create a new student record in the database.
+        </li>
+        <li>
+            <strong>/api/createMentor</strong> - Create a new mentor record in the database.
+        </li>
+        <li>
+            <strong>/api/assignStudentsToMentor</strong> - Assign students to a specific mentor.
+        </li>
+        <li>
+            <strong>/api/getStudentsWithoutMentor</strong> - Get a list of students who don't have a mentor assigned currently.
+        </li>
+        <li>
+            <strong>/api/assignOrChangeMentor</strong> - Assign or change the mentor for a specific student.
+        </li>
+        <li>
+            <strong>/api/getStudentsForMentor</strong> - Retrieve a list of students assigned to a particular mentor.
+        </li>
+    </ul>
