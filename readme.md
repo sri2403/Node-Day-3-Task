@@ -8,6 +8,19 @@ Welcome to the Mentor-Student Management API. This project provides a set of RES
 
 Postman link=>[click here](https://documenter.getpostman.com/view/32019732/2sA3Qv6pmi)
 
-## Output
+## Technologies Used
 
-Render link=>
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- dotenv
+- cors
+
+## Project Schema
+
+- Controllers
+- Models
+- Routers
+- Database
+- index.js
