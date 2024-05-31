@@ -3,7 +3,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./Database/config.js";
 import router from "./Routers/router.js";
-dotenv.config()
+dotenv.config();
+
 const PORT = process.env.PORT || 3000;
 
 const app=express();
@@ -13,6 +14,7 @@ app.use(cors({
     methods:["POST","PUT","GET","DELETE"],
     credentials:true
 }))
+
 connectDB();
 app.get("/",(req,res)=>{
     res.status(200).send(`
