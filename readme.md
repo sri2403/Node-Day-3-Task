@@ -52,3 +52,7 @@ Postman link=>[click here](https://documenter.getpostman.com/view/32019732/2sA3Q
             <strong>/api/getStudentsForMentor</strong> - Retrieve a list of students assigned to a particular mentor.
         </li>
     </ul>
+
+## Output
+
+Render link=>[Click here](https://node-day-3-task.onrender.com)
